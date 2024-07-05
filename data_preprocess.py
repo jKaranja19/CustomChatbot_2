@@ -8,7 +8,7 @@ def create_chatbot_vocabulary(file_path):
     with open(file_path,'r') as file:
         intents = json.load(file)
 
-    all_words = []     # Emptpy list to store all the tokined sentences
+    all_words = []     # Emptpy list to store all the tokined sentence
     tags = []          # Empty list to store the intents tags
     xy = []            # Empyty list to store tokenized words and their corresponding tags as a tuple
 
